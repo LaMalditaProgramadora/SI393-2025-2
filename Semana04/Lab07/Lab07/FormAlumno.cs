@@ -43,7 +43,12 @@ namespace Lab07
             };
 
             // Agrega a la lista
-            alumnoController.Registrar(alumno);
+            bool registrado = alumnoController.Registrar(alumno);
+            if (registrado == false)
+            {
+                MessageBox.Show("Ingrese otro DNI");
+                return;
+            }
 
             // Mostrar en ListView
             MostrarAlumnosEnDataGrid(AlumnoController.ListarTodo());
