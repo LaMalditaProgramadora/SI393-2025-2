@@ -1,0 +1,24 @@
+Buenas prácticas de Programación
+
+1. La clase entidad y sus propiedades
+
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names
+
+https://github.com/kriaranov/naming-convention/blob/master/C%2320Coding%20Standards%20and%20Naming%20Conventions.md
+
+	* Clases: PascalCase (singular)
+	* Properties y métodos: PascalCase
+
+3. Sobre las variables numéricas que realmente no lo son.
+
+4. Cómovalidar una propiedad repetida
+5. Cómo autogeneun código identificador
+6. Las validaciones
+
+	* Para evitar campos vacíos
+	* Para evitar campos no seleccionados
+
+7. Los clics randoms en el formulario
+
+8. Cómo hacer que el focmulario muestre la información de la fila seleccionada.
+9. Cómo limpiar el formulario.
