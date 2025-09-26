@@ -31,30 +31,16 @@ namespace Lab09
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegistrarEntrenador = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 164);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // btnRegistrarEntrenador
             // 
-            this.btnRegistrarEntrenador.Location = new System.Drawing.Point(117, 177);
+            this.btnRegistrarEntrenador.Location = new System.Drawing.Point(103, 13);
+            this.btnRegistrarEntrenador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegistrarEntrenador.Name = "btnRegistrarEntrenador";
-            this.btnRegistrarEntrenador.Size = new System.Drawing.Size(117, 33);
+            this.btnRegistrarEntrenador.Size = new System.Drawing.Size(156, 41);
             this.btnRegistrarEntrenador.TabIndex = 1;
             this.btnRegistrarEntrenador.Text = "Ver Entrenador";
             this.btnRegistrarEntrenador.UseVisualStyleBackColor = true;
@@ -62,9 +48,10 @@ namespace Lab09
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(117, 219);
+            this.btnSalir.Location = new System.Drawing.Point(103, 62);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(117, 33);
+            this.btnSalir.Size = new System.Drawing.Size(156, 41);
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -72,23 +59,20 @@ namespace Lab09
             // 
             // FormPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(350, 274);
+            this.ClientSize = new System.Drawing.Size(368, 120);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnRegistrarEntrenador);
-            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormPrincipal";
             this.Text = "Liga Pokémon";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Button btnRegistrarEntrenador;
         private Button btnSalir;
     }

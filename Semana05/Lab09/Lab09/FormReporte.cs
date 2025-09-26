@@ -1,54 +1,27 @@
-﻿using Lab09.entities;
-using Lab09.services;
+﻿using Lab09.controllers;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Lab09
 {
     public partial class FormReporte : Form
     {
-        private EntrenadorService entrenadorService = new EntrenadorService();
-        private PokemonService pokemonService = new PokemonService();
+        private ReporteController reporteController = new ReporteController();
 
         public FormReporte()
         {
             InitializeComponent();
         }
 
-        private void MostrarEntrenadores(List<Entrenador> entrenadores)
+
+        private void MostrarDatagrid<T>(List<T> lista)
         {
-            dgEntrenadores.DataSource = null;
+            dgReporte.DataSource = null;
 
-            if (entrenadores.Count == 0)
+            if (lista.Count != 0)
             {
-                return;
-            }
-            else
-            {
-                dgEntrenadores.DataSource = entrenadores;
-                lblTotalEntrenadores.Text = entrenadores.Count.ToString();
-            }
-        }
-
-        private void MostrarPokemons(List<Pokemon> pokemons)
-        {
-            dgPokemons.DataSource = null;
-
-            if (pokemons.Count == 0)
-            {
-                return;
-            }
-            else
-            {
-                dgPokemons.DataSource = pokemons;
-                lblTotalPokemons.Text = pokemons.Count.ToString();
+                dgReporte.DataSource = lista;
             }
         }
 
@@ -62,7 +35,6 @@ namespace Lab09
             }
 
             String nombrePokemon = tbNombre.Text;
-            MostrarEntrenadores(entrenadorService.ListarPorNombrePokemon(nombrePokemon));
         }
 
         private void btnBuscarPorRegion_Click(object sender, EventArgs e)
@@ -70,22 +42,22 @@ namespace Lab09
             // Validación de campos
             if (cbRegion.Text == "")
             {
-                MessageBox.Show("Ingrese laregión");
+                MessageBox.Show("Ingrese la región");
                 return;
             }
 
             String region = cbRegion.Text;
-            MostrarEntrenadores(entrenadorService.ListarPorRegion(region));
+            MostrarDatagrid(reporteController.ListarEntrenadorPorRegion(region));
         }
 
         private void btnBuscarPorMenorCantPokemon_Click(object sender, EventArgs e)
         {
-            MostrarEntrenadores(entrenadorService.ListarPorMenorCantidadPokemon());
+            MostrarDatagrid(reporteController.ListarEntrenadoresPorMenorCantidadPokemon());
         }
 
         private void btnBuscarPorMaxPSPokemon_Click(object sender, EventArgs e)
         {
-            MostrarEntrenadores(entrenadorService.ListarPorMaxPuntosSaludPokemon());
+            MostrarDatagrid(reporteController.ListarEntrenadoresPorMaxPuntosSaludPokemon());
         }
 
         private void btnBuscarPorRangoEdadEntrenadores_Click(object sender, EventArgs e)
@@ -99,12 +71,12 @@ namespace Lab09
 
             int edadMin = int.Parse(tbEdadMin.Text);
             int edadMax = int.Parse(tbEdadMax.Text);
-            MostrarPokemons(pokemonService.ListarPorEdadEntrenadores(edadMin, edadMax));
+            MostrarDatagrid(reporteController.ListarPokemonsPorEdadEntrenadores(edadMin, edadMax));
         }
 
         private void btnBuscarLegendarios_Click(object sender, EventArgs e)
         {
-            MostrarPokemons(pokemonService.ListarLegendarios());
+            MostrarDatagrid(reporteController.ListarPokemonsLegendarios());
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

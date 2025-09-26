@@ -1,42 +1,30 @@
-﻿using Lab09.entities;
-using Lab09.services;
+﻿using Lab09.controllers;
+using Lab09.entities;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Lab09
 {
     public partial class FormPokemon : Form
     {
-        private PokemonService pokemonService = new PokemonService();
+        private PokemonController pokemonController = new PokemonController();
         private String codigoEntrenador;
 
         public FormPokemon(String codigoEntrenador)
         {
             InitializeComponent();
             this.codigoEntrenador = codigoEntrenador;
-            MostrarPokemons(pokemonService.ListarTodoPorEntrenador(codigoEntrenador));
+            MostrarDatagrid(pokemonController.ListarTodo(codigoEntrenador));
         }
 
-        private void MostrarPokemons(List<Pokemon> pokemons)
+        private void MostrarDatagrid<T>(List<T> lista)
         {
             dgPokemons.DataSource = null;
 
-            if (pokemons.Count == 0)
+            if (lista.Count != 0)
             {
-                return;
-            }
-            else
-            {
-                dgPokemons.DataSource = pokemons;
-                lblTotalPokemons.Text = pokemons.Count.ToString();
-                lblTotalPsPokemon.Text = pokemons.Sum(p => p.PuntosSalud).ToString();
+                dgPokemons.DataSource = lista;
             }
         }
 
@@ -50,7 +38,7 @@ namespace Lab09
             }
 
             // Validar si tiene más de 6 pokémos
-            if (pokemonService.ListarTodoPorEntrenador(codigoEntrenador).Count == 6)
+            if (pokemonController.ListarTodo(codigoEntrenador).Count == 6)
             {
                 MessageBox.Show("No se puede agregar más de 6 pokémons");
                 return;
@@ -68,7 +56,7 @@ namespace Lab09
             };
 
             // Registramos
-            bool registrado = pokemonService.Registrar(codigoEntrenador, pokemon);
+            bool registrado = pokemonController.Registrar(codigoEntrenador, pokemon);
             if (!registrado)
             {
                 MessageBox.Show("El código ya existe");
@@ -76,7 +64,7 @@ namespace Lab09
             }
 
             // Actualizar ListView
-            MostrarPokemons(pokemonService.ListarTodoPorEntrenador(codigoEntrenador));
+            MostrarDatagrid(pokemonController.ListarTodo(codigoEntrenador));
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controllers\ReporteController.cs" />
     <Compile Include="entities\Entrenador.cs" />
     <Compile Include="entities\Pokemon.cs" />
     <Compile Include="FormEntrenador.cs">
@@ -74,10 +75,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="repositories\EntrenadorRepository.cs" />
-    <Compile Include="repositories\PokemonRepository.cs" />
-    <Compile Include="services\EntrenadorService.cs" />
-    <Compile Include="services\PokemonService.cs" />
+    <Compile Include="controllers\EntrenadorController.cs" />
+    <Compile Include="controllers\PokemonController.cs" />
     <EmbeddedResource Include="FormEntrenador.resx">
       <DependentUpon>FormEntrenador.cs</DependentUpon>
     </EmbeddedResource>

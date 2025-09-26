@@ -1,39 +1,28 @@
-﻿using Lab09.entities;
-using Lab09.services;
+﻿using Lab09.controllers;
+using Lab09.entities;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Lab09
 {
     public partial class FormEntrenador : Form
     {
-        private EntrenadorService entrenadorService = new EntrenadorService();
+        private EntrenadorController entrenadorController = new EntrenadorController();
 
         public FormEntrenador()
         {
             InitializeComponent();
-            MostrarEntrenadores(entrenadorService.ListarTodo());
+            MostrarDatagrid(EntrenadorController.ListarTodo());
         }
 
-        private void MostrarEntrenadores(List<Entrenador> entrenadores)
+        private void MostrarDatagrid<T>(List<T> lista)
         {
             dgEntrenadores.DataSource = null;
 
-            if (entrenadores.Count == 0)
+            if (lista.Count != 0)
             {
-                return;
-            }
-            else
-            {
-                dgEntrenadores.DataSource = entrenadores;
-                lblTotalEntrenadores.Text = entrenadores.Count.ToString();
+                dgEntrenadores.DataSource = lista;
             }
         }
 
@@ -57,7 +46,7 @@ namespace Lab09
             };
 
             // Registrar
-            bool registrado = entrenadorService.Registrar(entrenador);
+            bool registrado = entrenadorController.Registrar(entrenador);
             if (!registrado)
             {
                 MessageBox.Show("El código ya existe");
@@ -65,7 +54,7 @@ namespace Lab09
             }
 
             // Actualizar Datagrid
-            MostrarEntrenadores(entrenadorService.ListarTodo());
+            MostrarDatagrid(EntrenadorController.ListarTodo());
         }
 
         private void btnVerPokemon_Click(object sender, EventArgs e)

@@ -46,26 +46,30 @@ namespace Lab08
             // lblMontoTotalAlquilerInmuebles
             // 
             this.lblMontoTotalAlquilerInmuebles.AutoSize = true;
-            this.lblMontoTotalAlquilerInmuebles.Location = new System.Drawing.Point(131, 316);
+            this.lblMontoTotalAlquilerInmuebles.Location = new System.Drawing.Point(175, 389);
+            this.lblMontoTotalAlquilerInmuebles.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMontoTotalAlquilerInmuebles.Name = "lblMontoTotalAlquilerInmuebles";
-            this.lblMontoTotalAlquilerInmuebles.Size = new System.Drawing.Size(13, 13);
+            this.lblMontoTotalAlquilerInmuebles.Size = new System.Drawing.Size(14, 16);
             this.lblMontoTotalAlquilerInmuebles.TabIndex = 62;
             this.lblMontoTotalAlquilerInmuebles.Text = "0";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(26, 316);
+            this.label12.Location = new System.Drawing.Point(35, 389);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(99, 13);
+            this.label12.Size = new System.Drawing.Size(122, 16);
             this.label12.TabIndex = 61;
             this.label12.Text = "Monto total alquiler:";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // btnAgenciasMayorCantidadInmueblesVenta
             // 
-            this.btnAgenciasMayorCantidadInmueblesVenta.Location = new System.Drawing.Point(29, 65);
+            this.btnAgenciasMayorCantidadInmueblesVenta.Location = new System.Drawing.Point(39, 80);
+            this.btnAgenciasMayorCantidadInmueblesVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgenciasMayorCantidadInmueblesVenta.Name = "btnAgenciasMayorCantidadInmueblesVenta";
-            this.btnAgenciasMayorCantidadInmueblesVenta.Size = new System.Drawing.Size(216, 37);
+            this.btnAgenciasMayorCantidadInmueblesVenta.Size = new System.Drawing.Size(288, 46);
             this.btnAgenciasMayorCantidadInmueblesVenta.TabIndex = 60;
             this.btnAgenciasMayorCantidadInmueblesVenta.Text = "Buscar las agencias tienen más inmuebles en venta";
             this.btnAgenciasMayorCantidadInmueblesVenta.UseVisualStyleBackColor = true;
@@ -73,9 +77,10 @@ namespace Lab08
             // 
             // btnAgenciasAlquilerInmueblesMayorSuperficie
             // 
-            this.btnAgenciasAlquilerInmueblesMayorSuperficie.Location = new System.Drawing.Point(29, 23);
+            this.btnAgenciasAlquilerInmueblesMayorSuperficie.Location = new System.Drawing.Point(39, 28);
+            this.btnAgenciasAlquilerInmueblesMayorSuperficie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgenciasAlquilerInmueblesMayorSuperficie.Name = "btnAgenciasAlquilerInmueblesMayorSuperficie";
-            this.btnAgenciasAlquilerInmueblesMayorSuperficie.Size = new System.Drawing.Size(216, 37);
+            this.btnAgenciasAlquilerInmueblesMayorSuperficie.Size = new System.Drawing.Size(288, 46);
             this.btnAgenciasAlquilerInmueblesMayorSuperficie.TabIndex = 59;
             this.btnAgenciasAlquilerInmueblesMayorSuperficie.Text = "Buscar las agencias que alquilan inmuebles con mayor superficie";
             this.btnAgenciasAlquilerInmueblesMayorSuperficie.UseVisualStyleBackColor = true;
@@ -83,9 +88,10 @@ namespace Lab08
             // 
             // btnBuscarVenta
             // 
-            this.btnBuscarVenta.Location = new System.Drawing.Point(29, 250);
+            this.btnBuscarVenta.Location = new System.Drawing.Point(39, 308);
+            this.btnBuscarVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscarVenta.Name = "btnBuscarVenta";
-            this.btnBuscarVenta.Size = new System.Drawing.Size(216, 20);
+            this.btnBuscarVenta.Size = new System.Drawing.Size(288, 25);
             this.btnBuscarVenta.TabIndex = 58;
             this.btnBuscarVenta.Text = "Buscar Inmuebles en Venta";
             this.btnBuscarVenta.UseVisualStyleBackColor = true;
@@ -94,40 +100,45 @@ namespace Lab08
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(26, 202);
+            this.label13.Location = new System.Drawing.Point(35, 249);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(102, 13);
+            this.label13.Size = new System.Drawing.Size(127, 16);
             this.label13.TabIndex = 57;
             this.label13.Text = "Buscar por agencia:";
             // 
             // tbBuscar
             // 
-            this.tbBuscar.Location = new System.Drawing.Point(29, 224);
+            this.tbBuscar.Location = new System.Drawing.Point(39, 276);
+            this.tbBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbBuscar.Name = "tbBuscar";
-            this.tbBuscar.Size = new System.Drawing.Size(216, 20);
+            this.tbBuscar.Size = new System.Drawing.Size(287, 22);
             this.tbBuscar.TabIndex = 56;
             // 
             // dgAgencias
             // 
             this.dgAgencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgAgencias.Location = new System.Drawing.Point(294, 23);
+            this.dgAgencias.Location = new System.Drawing.Point(392, 28);
+            this.dgAgencias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgAgencias.Name = "dgAgencias";
-            this.dgAgencias.Size = new System.Drawing.Size(484, 148);
+            this.dgAgencias.Size = new System.Drawing.Size(645, 182);
             this.dgAgencias.TabIndex = 70;
             // 
             // dgInmuebles
             // 
             this.dgInmuebles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgInmuebles.Location = new System.Drawing.Point(294, 190);
+            this.dgInmuebles.Location = new System.Drawing.Point(392, 234);
+            this.dgInmuebles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgInmuebles.Name = "dgInmuebles";
-            this.dgInmuebles.Size = new System.Drawing.Size(484, 163);
+            this.dgInmuebles.Size = new System.Drawing.Size(645, 201);
             this.dgInmuebles.TabIndex = 72;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(29, 342);
+            this.btnSalir.Location = new System.Drawing.Point(39, 421);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(100, 28);
             this.btnSalir.TabIndex = 73;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -135,9 +146,9 @@ namespace Lab08
             // 
             // FormReporte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 381);
+            this.ClientSize = new System.Drawing.Size(1067, 469);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.dgInmuebles);
             this.Controls.Add(this.dgAgencias);
@@ -148,6 +159,7 @@ namespace Lab08
             this.Controls.Add(this.btnBuscarVenta);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.tbBuscar);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormReporte";
             this.Text = "Reportes";
             ((System.ComponentModel.ISupportInitialize)(this.dgAgencias)).EndInit();

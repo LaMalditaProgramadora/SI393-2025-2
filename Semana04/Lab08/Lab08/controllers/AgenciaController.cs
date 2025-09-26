@@ -9,7 +9,7 @@ namespace Lab08.controllers
     {
         private static List<Agencia> agencias = new List<Agencia>();
 
-        public bool Existe(String codigo)
+        private bool Existe(String codigo)
         {
             return agencias.Exists(a => a.Codigo.Equals(codigo));
         }

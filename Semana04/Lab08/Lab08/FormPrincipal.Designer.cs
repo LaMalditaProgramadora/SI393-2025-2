@@ -31,13 +31,15 @@ namespace Lab08
         {
             this.btnVerAgencias = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnVerAgencias
             // 
-            this.btnVerAgencias.Location = new System.Drawing.Point(83, 32);
+            this.btnVerAgencias.Location = new System.Drawing.Point(111, 39);
+            this.btnVerAgencias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVerAgencias.Name = "btnVerAgencias";
-            this.btnVerAgencias.Size = new System.Drawing.Size(107, 23);
+            this.btnVerAgencias.Size = new System.Drawing.Size(143, 28);
             this.btnVerAgencias.TabIndex = 0;
             this.btnVerAgencias.Text = "Ver Agencias";
             this.btnVerAgencias.UseVisualStyleBackColor = true;
@@ -45,21 +47,33 @@ namespace Lab08
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(83, 96);
+            this.btnSalir.Location = new System.Drawing.Point(111, 118);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(107, 23);
+            this.btnSalir.Size = new System.Drawing.Size(143, 28);
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(175, 196);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(285, 161);
+            this.ClientSize = new System.Drawing.Size(380, 198);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnVerAgencias);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormPrincipal";
             this.Text = "Menú";
             this.ResumeLayout(false);
@@ -70,5 +84,6 @@ namespace Lab08
 
         private System.Windows.Forms.Button btnVerAgencias;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button button1;
     }
 }

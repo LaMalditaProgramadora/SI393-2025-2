@@ -9,11 +9,12 @@ Se requiere una aplicacion en C# para realizar el registro de la informacion de 
 * Listar los entrenadores.
 * Listar todos los pokemons de un entrenador.
 * Listar todos los pokemons de un entrenador en determinado rango de edad.
-* Listar la cantidad total de puntos de salud de los pokemons de un entrenador.
 * Listar los entrenadores que pertenecen a una determinada region.
 * Listar los entrenadores que tienen un pokemon especifico.
 * Listar los entrenadores que tienen la menor cantidad de pokemons registrados.
 * Listar los entrenadores que tienen los pokemons con la mayor cantidad de puntos de salud.
+* Listar pokemons legendarios.
+* Listar entrenadores por nombre pokemon.
 
 La informacion que se necesita es la siguiente:
 

@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SI393-2025-2\\Semana05\\Lab09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\formreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\formpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\formentrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formentrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\entities\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\entities\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\entities\\entrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\entities\\entrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|D:\\SI393-2025-2\\Semana05\\Lab09\\lab09\\controllers\\entrenadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\controllers\\entrenadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\formentrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formentrenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\formentrenador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formentrenador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\formpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formpokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|d:\\si393-2025-2\\semana05\\lab09\\lab09\\formreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7376E6-876F-4966-A661-7D7E5B5C5F52}|Lab09\\Lab09.csproj|solutionrelative:lab09\\formreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormPrincipal.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Lab09\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:55:22.124Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\entities\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Lab09\\entities\\Pokemon.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\entities\\Pokemon.cs",
+              "RelativeToolTip": "Lab09\\entities\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:27:02.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormEntrenador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormEntrenador.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormEntrenador.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormEntrenador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Lab09\\FormEntrenador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:55:14.222Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPokemon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPokemon.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormPokemon.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPokemon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Lab09\\FormPokemon.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:55:17.722Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReporteController.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\controllers\\ReporteController.cs",
+              "RelativeDocumentMoniker": "Lab09\\controllers\\ReporteController.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\controllers\\ReporteController.cs",
+              "RelativeToolTip": "Lab09\\controllers\\ReporteController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:15:21.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormReporte.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormReporte.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormReporte.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormReporte.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Lab09\\FormReporte.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:55:23.273Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entrenador.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\entities\\Entrenador.cs",
+              "RelativeDocumentMoniker": "Lab09\\entities\\Entrenador.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\entities\\Entrenador.cs",
+              "RelativeToolTip": "Lab09\\entities\\Entrenador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:56:08.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "Lab09\\controllers\\PokemonController.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\controllers\\PokemonController.cs",
+              "RelativeToolTip": "Lab09\\controllers\\PokemonController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:56:49.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EntrenadorController.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\controllers\\EntrenadorController.cs",
+              "RelativeDocumentMoniker": "Lab09\\controllers\\EntrenadorController.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\controllers\\EntrenadorController.cs",
+              "RelativeToolTip": "Lab09\\controllers\\EntrenadorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T12:56:39.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormEntrenador.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormEntrenador.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormEntrenador.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormEntrenador.cs",
+              "RelativeToolTip": "Lab09\\FormEntrenador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:53:06.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\Program.cs",
+              "RelativeDocumentMoniker": "Lab09\\Program.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\Program.cs",
+              "RelativeToolTip": "Lab09\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:52:51.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormPokemon.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPokemon.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormPokemon.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPokemon.cs",
+              "RelativeToolTip": "Lab09\\FormPokemon.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:40:14.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormEntrenador.Designer.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormEntrenador.Designer.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormEntrenador.Designer.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormEntrenador.Designer.cs",
+              "RelativeToolTip": "Lab09\\FormEntrenador.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:27:33.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormPrincipal.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormPrincipal.cs",
+              "RelativeToolTip": "Lab09\\FormPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:50:45.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormReporte.cs",
+              "DocumentMoniker": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormReporte.cs",
+              "RelativeDocumentMoniker": "Lab09\\FormReporte.cs",
+              "ToolTip": "D:\\SI393-2025-2\\Semana05\\Lab09\\Lab09\\FormReporte.cs",
+              "RelativeToolTip": "Lab09\\FormReporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:27:38.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,9 @@ namespace Lab08.controllers
         private bool Existe(String codigoInmueble)
         {
             List<Agencia> agencias = AgenciaController.ListarTodo();
-            return agencias.Exists(a => a.Inmuebles.Exists(i => i.Codigo.Equals(codigoInmueble)));
+            List<Inmueble> inmuebles = agencias.SelectMany(a => a.Inmuebles).ToList();
+
+            return inmuebles.Exists(i => i.Codigo.Equals(codigoInmueble));
         }
 
         public bool Registrar(String codigoAgencia, Inmueble inmueble)
